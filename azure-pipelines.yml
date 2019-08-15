@@ -3,4 +3,5 @@ stages:
   jobs:
   - job: BuildJob
     steps:
+      chmod 755 azure.ps1
     - script: ./azure.ps1
